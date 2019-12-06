@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/powercode14/portfolio_react/_apis/build/status/powercode14.portfolio_react?branchName=master)](https://dev.azure.com/powercode14/portfolio_react/_build/latest?definitionId=42&branchName=master)
