@@ -9,7 +9,7 @@ const Projects = React.forwardRef((props, ref) => {
             </div>
             <div className="desc">
                 <div className="box">
-                    <div className="image" style={{backgroundImage: 'url(/images/smartcar.gif); cursor: pointer;)'}}>
+                    <div className="image" style={{backgroundImage: `url(${props.prefix}/images/smartcar.gif); cursor: pointer;)`}}>
                     </div>
                     <div className="content">
                         <h1>라즈베리파이 스마트카 (졸업작품)</h1>
@@ -20,7 +20,7 @@ const Projects = React.forwardRef((props, ref) => {
                     </div>
                 </div>
                 <div className="box">
-                    <div className="image" style={{backgroundImage: 'url(/images/cafetale.png); cursor: pointer;)'}}>
+                    <div className="image" style={{backgroundImage: `url(${props.prefix}/images/cafetale.png); cursor: pointer;)`}}>
                     </div>
                     <div className="content">
                         <h1>Café tale (포트폴리오용)</h1>
@@ -31,7 +31,7 @@ const Projects = React.forwardRef((props, ref) => {
                     </div>
                 </div>
                 <div className="box">
-                    <div className="image" style={{backgroundImage: 'url(/images/smartcar.gif); cursor: pointer;)'}}>
+                    <div className="image" style={{backgroundImage: `url(${props.prefix}/images/smartcar.gif); cursor: pointer;)`}}>
                     </div>
                     <div className="content">
                         <h1>현대파워텍 유해물질 관리시스템 구축 (실무)</h1>

@@ -27,7 +27,7 @@ const Skills = React.forwardRef((props, ref) => {
                         </div>
                         <div className="panel-body">
                             {imageFiles[key].map((item, i) =>
-                                <div key={i} className="item" style={{backgroundImage: `url(/images/icon-${Object.keys(item)}.png)`}}>
+                                <div key={i} className="item" style={{backgroundImage: `url(${props.prefix}/images/icon-${Object.keys(item)}.png)`}}>
                                     <div className="label">
                                         <p>{Object.keys(item)}</p>
                                         <p>{Object.values(item)}</p>

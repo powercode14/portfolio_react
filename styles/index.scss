@@ -17,7 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url('/images/home.jpg');
+  background-image: url('https://powercode14.github.io/portfolio_react/images/home.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -270,20 +270,20 @@ body {
     }
     .clipboard {
       border-radius: 10px;
-      background: white url('/images/clipboard.png') center no-repeat;
+      background: white url('https://powercode14.github.io/portfolio_react/images/clipboard.png') center no-repeat;
       background-size: contain;
       cursor: grab;
       width: 55px;
     }
     .github {
       border-radius: 50%;
-      background: white url('/images/icon-git.png') center no-repeat;
+      background: white url('https://powercode14.github.io/portfolio_react/images/icon-git.png') center no-repeat;
       background-size: contain;
       cursor: pointer;
     }
     .blog {
       border-radius: 5px;
-      background: white url('/images/tistory.png') center no-repeat;
+      background: white url('https://powercode14.github.io/portfolio_react/images/tistory.png') center no-repeat;
       background-size: contain;
       cursor: pointer;
     }
